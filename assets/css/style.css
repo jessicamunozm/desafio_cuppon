@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --titles: #212529;
+    --content: #707070;
+    --light: #F8F9FA;
+    --white: #FFF;
+    --success: #28a745;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV BAR */
+
+nav {
+    background-color: var(--success);
+}
+
+.navbar-toggler {
+    filter: invert(100%);
+}
+
+#logo-white {
+    width: 11.5rem;
+}
+
+/* MAIN */
+
+#main {
+    background-color: var(--success);
+    height: 5rem;
+}
+
+/* >---TÍTULO CARDS---< */
+
+body div h5 {
+    font-size: 1.2rem;
+}
+
+/* >---SECCIÓN UBICACIÓN---< */
+
+body div p {
+    font-weight: lighter;
+    color: var(--content);
+    font-size: 1rem;
+    text-align: left;
+    display: contents;
+}
+
+div.card-body {
+    text-align: left;
+}
+
+/*LINEA SOBRE LOS PRECIOS*/
+
+HR {
+    margin-top: 1%;
+    width: 90%;
+    align-self: center;
+    color: var(--titles);
+    margin-bottom: 6%;
+}
+
+/* PRECIOS */
+
+article {
+    text-align: right;
+    margin-right: 10%;
+}
+
+#precio1 {
+    font-weight: 100;
+    color: var(--content);
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+#precio2 {
+    color: var(--success);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+/* CUPÓN */
+
+section h2 {
+    color: var(--white);
+}
+
+#enviar {
+    background-color: var(--light);
+    width: 7rem;
+}
+
+#form {
+    width: 50rem;
+}
+
+/* FOOTER */
+
+#logo-black {
+    width: 9rem;
+}
+
+#Contacto {
+    background-color: var(--success);
+}
+
+footer p {
+    color: var(--content);
+}
+
+/* MEDIAS QUERY */
+
+@media (max-width: 48rem) {
+    #logo-white {
+        width: 6.25rem;
+    }
+
+    #main {
+        height: 3.75rem;
+    }
+
+    #form {
+        width: 18.5rem;
+    }
+
+    #Contacto h2 {
+        font-size: larger;
+    }
+
+    #logo-black {
+        width: 6rem;
+    }
+}
